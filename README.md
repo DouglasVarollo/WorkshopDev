@@ -1,4 +1,6 @@
-<img align="center" src=".github/logo.png" />
+<p align="center">
+  <img src=".github/logo.png" />
+</p>
 
 <p align="center">Projeto desenvolvido no WorkshopDev da semana OmniStack 11.0 da Rocketseat.</p>
 
