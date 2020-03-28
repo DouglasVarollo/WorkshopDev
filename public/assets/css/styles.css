@@ -40,7 +40,7 @@ p,
   display: flex;
 
   max-width: 980px;
-  width: 80%;
+  width: 90%;
   margin: 40px auto;
 }
 
@@ -185,7 +185,7 @@ footer a {
   gap: 20px;
 
   max-width: 800px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto 15%;
 }
 
@@ -334,4 +334,52 @@ section#ideas,
 section#title,
 footer {
   margin-top: 64px;
+}
+
+@media screen and (max-width: 980px) {
+  #container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #intro {
+    min-width: 50%;
+    margin: 0 0 32px;
+  }
+
+  footer {
+    margin-top: 32px;
+  }
+
+  .idea {
+    flex-direction: column;
+
+    padding: 16px;
+  }
+
+  .idea img {
+    margin: 0 0 16px;
+  }
+
+  form button {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  #page-ideas #ideas {
+    grid-template-columns: 1fr;
+  }
+
+  #page-ideas header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page-ideas header img {
+    margin-bottom: 16px;
+  }
+
+  #page-ideas header nav li {
+    margin-right: 32px;
+  }
 }
