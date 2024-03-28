@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "nunjucks": "^3.2.4",
     "sqlite3": "^4.1.1"
   },
